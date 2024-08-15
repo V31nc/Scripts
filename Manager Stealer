@@ -92,6 +92,7 @@ end
 
 --become manager
 humanoid.Sit=false
+humanoid.Jump=true
 wait(1)
 pcall(function() workspace.ManagerChair.Seat:Sit(humanoid) end)
 wait(0.3)
