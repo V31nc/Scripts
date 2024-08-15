@@ -92,8 +92,8 @@ end
 
 --become manager
 humanoid.Sit=false
-humanoid.Jump=true
 wait(1)
+player.Character.HumanoidRootPart.CFrame = CFrame.new(23.5757, 4.231, 6.457)
 pcall(function() workspace.ManagerChair.Seat:Sit(humanoid) end)
 wait(0.3)
 humanoid.Jump=true
