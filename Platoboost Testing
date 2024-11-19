@@ -1,3 +1,4 @@
+print("Executed")
 -- Plato configuration
 local accountId = 103981; -- Plato account id [IMPORTANT]
 local allowPassThrough = false; -- Allow user through if error occurs, may reduce security
