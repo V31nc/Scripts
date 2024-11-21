@@ -1,3 +1,4 @@
+
 print("Executed")
 -- Plato configuration
 local accountId = 103981; -- Plato account id [IMPORTANT]
@@ -124,5 +125,5 @@ function verify(key)
 end;
 -- Plato global functions [END]
 
-getLink()
+setclipboard(getLink())
 print("Copy linked")
